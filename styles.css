@@ -5,6 +5,7 @@
 * GLOBAL-STYLES
 * CARD
 * STATS
+* ATTRIBUTION
 * LAYOUT
 * MEDIA-QUERIES
 */
@@ -161,6 +162,34 @@ html {
 }
 
 /*--------------------------*\
+  #ATTRIBUTION 
+\*--------------------------*/
+
+.attribution {
+  font-size: var(--fs-text);
+  font-weight: var(--fw-regular);
+  color: var(--white-3);
+}
+
+.attribution__link {
+  text-decoration: none;
+  color: var(--white-3);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.attribution__link:hover,
+.attribution__link:focus-visible {
+  color: var(--purple-500);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .attribution__link {
+    transition-duration: 0.01ms;
+  }
+}
+
+/*--------------------------*\
   #LAYOUT 
 \*--------------------------*/
 
@@ -173,6 +202,13 @@ html {
 
   padding-block: var(--spacing-lg);
 
+  background-color: var(--navy-950);
+}
+
+.footer {
+  padding: var(--spacing-md);
+
+  text-align: center;
   background-color: var(--navy-950);
 }
 
