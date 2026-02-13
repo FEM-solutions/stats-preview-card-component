@@ -28,6 +28,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [https://fem-solutions.github.io/stats-preview-card-component](https://fem-solutions.github.io/stats-preview-card-component)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-8elvdcVR-p](https://www.frontendmentor.io/solutions/stats-preview-card-8elvdcVR-p)
 
 ## My process
 
